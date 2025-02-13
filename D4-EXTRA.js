@@ -14,7 +14,7 @@ const checkArray = function () {
     } else {
       console.log("E minore di 5");
     }
-    for (let j = 0; j < casualNumbers; j++) {
+    for (let j = 0; j < casualNumbers.length; j++) {
       if (casualNumbers[j] > 5) {
         sum = casualNumbers[j];
       }
